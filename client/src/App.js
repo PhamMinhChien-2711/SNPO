@@ -39,9 +39,7 @@ function App() {
                     <CircularProgress size='3rem' className={classes.circularProgress} />
                 }
             >
-
                 <Header />
-
 
                 <Switch>
                     <Route path="/" exact component={Home} />

@@ -12,27 +12,19 @@ const Home = () => {
                 <h4 className="welcome-page-description">
                     Hope you feel happy when using my web
                 </h4>
-                <SignIn />
-
-
+                {/* <SignIn /> */}
 
             </div>
 
-
-            <Switch>
+            {/* <Switch>
                 <Route path="/forgotpass" >
                     <ForgotPass />
                 </Route>
                 <Route path="/signup" >
                     <SignUp />
                 </Route>
-            </Switch>
+            </Switch> */}
         </Router>
-
-
-
-
-
 
     );
 }
