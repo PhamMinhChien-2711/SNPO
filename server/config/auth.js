@@ -1,0 +1,4 @@
+export const CONFIG = {
+    PASSWORD_HASH_LENGTH: 10,
+    TOKEN_KEY: 'PET_PROJECT'
+  }
